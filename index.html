@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz app</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+<div id="startPanel">
+	<form id="mainForm">
+		<button>Start Quiz</button>
+	</form>
+</div>
+<div id="quizPanel" class="hidden">
+	
+	<div id="currentQuesCount"></div> <!-- 1/5,2/5, etc.. -->
+	<div id="currentScore"></div>
+
+	<div class="current Question is: "></div>
+
+	<div id="questionPanel"></div>
+
+	<form id="questionForm">
+		<button id="nextButton">Submit / next question</button>
+	</form>
+
+	<div id="messageDiv"></div>
+</div>
+<div id="finishPanel" class="hidden">Congratulations you finished the quiz!!!
+	<form id="restartForm">
+		<button>retake the quiz</button>
+	</form>
+</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="app.js" href="app.js"></script>
+</body>
+</html>

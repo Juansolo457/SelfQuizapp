@@ -1,0 +1,53 @@
+* {
+	font-size: 20px;
+}
+
+
+.hidden {
+	display: none;
+}
+
+li {
+	list-style-type: upper-roman; 
+}
+
+button {
+	position: relative;
+	top: 275px;
+	left: 45%; 
+	padding: 20px;
+}
+
+body {
+	background-color: #35B89D;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
+
+/*added for hover button! */
+
+#questionPanel {
+	position: relative;
+	top: 100px;
+	left: 45%;
+	
+}
+
+
+#messageDiv {
+	position: relative;
+	top: 70px;
+}
+
+#nextButton {. 
+	/*starts on line 24 on the html*/
+	/*position: absolute;*/
+	bottom: 300px;
+	left: 100px; 
+	 /*was 55% : replaced with 100px*/
+	padding: 20px;
+
+}
